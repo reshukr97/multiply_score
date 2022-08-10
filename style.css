@@ -1,0 +1,76 @@
+body{
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(86, 104, 119);
+    text-align: center;
+    color: rgb(29, 26, 26);
+}
+
+.form {
+    border: 3px solid rgb(25, 20, 36);
+    box-shadow: 2px 2px 3px rgb(139, 148, 147);
+    margin: 3px;
+    padding:4px;
+    border-radius: 10px;
+    background : rgb(121, 97, 148);
+}
+
+.input-text{
+    display:block;
+    width: 100%;
+    box-sizing: border-box; 
+    padding:18px;
+    margin:0px;
+    color: rgb(29, 5, 39);
+    text-align: center;
+    font-size: 20px;
+    border: solid 2px rgb(85, 41, 68);
+    font-weight:bold;
+}
+
+.input-text:focus{
+    outline:none;   
+}
+
+.input-text::placeholder{
+    font-weight:200;
+    color: grey;
+    font-family: cursive;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    border: solid 2px rgb(85, 41, 68);
+    padding: 2px;
+    height: 27px;
+    margin: 4px 0px ;
+    background-color: rgb(126, 67, 182);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 1px 1px 41px rgb(90, 64, 82);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    filter: brightness(0.9);
+}
+
+.score{
+    text-align:right;
+    text-transform: lowercase;
+    padding: 0px;
+    margin:0px;
+    font:black;
+    font-weight: bold;
+    font-family: cursive;
+}
+
