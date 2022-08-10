@@ -16,7 +16,7 @@ const corrAns = num1 * num2;
 
 let score =  JSON.parse(localStorage.getItem("score_val"));
 
-if( score < 0)
+if( !score)
 {
     score = 0;
 }
